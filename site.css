@@ -1,0 +1,62 @@
+body {
+    margin: 10px 50px;
+}
+
+nav.navigationBar {
+    background-color: rgb(134, 134, 134);
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+ 
+.logo {
+    height: 30px;
+}
+
+.leftSide {
+    height: 10px;
+}
+
+nav.navigationBar.div.links {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+}
+
+.rightSide {
+    margin-left: 85%;
+    display: flex;
+    flex: row nowrap;
+}
+
+.dropdown {
+    position: relative;
+    justify-content: end;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}  
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #bbbbbb;
+    border: solid 1px;
+}
+
+.icons {
+    width: 20px;
+    height: 10px;
+}
