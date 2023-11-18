@@ -1,6 +1,6 @@
 body {
-    margin: 10px 50px;
-    /* width: 1080px; */
+    margin: 10px 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 a:link, a:visited {
@@ -83,7 +83,7 @@ nav.navigationBar {
 .toBuyAdvert {
     display: flex;
     justify-content: center;
-    margin-top: 70px;
+    margin: 70px 0px;
     gap: 45px;
 }
 
@@ -103,5 +103,35 @@ nav.navigationBar {
 }
 
 .toBuyAdvertText:hover {
+    color: rgb(172, 15, 47);
+}
+
+.miniAdvert {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;    
+}
+
+.miniAdvertItem {
+    width: 380px;
+}
+
+.miniAdvertImg {
+
+}
+
+.miniAdvertHeader {
+
+}
+
+.miniAdvertText {
+
+}
+
+.miniAdvertLink:visited {
+    color: crimson;
+}
+
+.miniAdvertLink:hover {
     color: rgb(172, 15, 47);
 }
