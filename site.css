@@ -48,6 +48,7 @@ nav.navigationBar {
 .mainAdvert {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin: 45px;
 }
 
@@ -144,6 +145,7 @@ nav.navigationBar {
 .secondAdvert {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin: 70px 150px 0px 150px;
 }
 
